@@ -1,6 +1,6 @@
 var watch = require('node-watch');
  
-watch('file-test.txt', function(filename) {
+watch('README.md', function(filename) {
   console.log(filename, ' changed.');
   
 });
